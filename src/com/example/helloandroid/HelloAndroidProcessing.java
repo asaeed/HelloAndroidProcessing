@@ -18,13 +18,13 @@ public class HelloAndroidProcessing extends Activity {
 public class HelloAndroidProcessing extends PApplet {
 	
 	public static void main(String args[]) {
-	    PApplet.main(new String[] { "--present", "com.android.test.HelloWorld" });
+	    PApplet.main(new String[] { "--present", "something.whatever" });
 	  }
 	
-	@Override
-	public String sketchRenderer() {
-	    return P2D;
-	}
+	//@Override
+	//public String sketchRenderer() {
+	//    return P2D;
+	//}
 	
 	PFont f;
 	String message = "this text is spinning";
